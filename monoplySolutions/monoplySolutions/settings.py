@@ -25,7 +25,7 @@ SECRET_KEY = 'pfn388=rh6rgtu6vzwd(hr#@*=qw3xmb9v=h+pc!45+*uc8vo9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['monoplypropertysolutions.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
