@@ -71,6 +71,7 @@ class TeamMember(models.Model):
     twitter_link = models.CharField(max_length=200, blank=True, null=True)
     google_plus_link = models.CharField(max_length=200, blank=True, null=True)
     linkedin_link = models.CharField(max_length=200, blank=True, null=True)
+    show = models.BooleanField(default=False)
 
     def __str__(self):
         return str(self.name)

@@ -13,6 +13,19 @@ $(document).ready(function(e) {
         }
     });
 
+    //portfolio
+    $('.job-preview').click(function() {
+        var job_id = $(this).attr('data-id');
+        console.log('job|' + job_id + ' preiview');
+        $('.job-preview-popup').slideDown();
+    });
+
+
+    $('.close-job-preview-popup').click(function() {
+        $('.job-preview-popup').hide();
+    });
+
+
     //Contact
     $('form.contactForm').submit(function(){
 

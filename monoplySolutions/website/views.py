@@ -10,7 +10,7 @@ def index(request):
 	services = Service.objects.all()
 	job_categories = JobCategory.objects.all()
 	jobs = Job.objects.filter(show=True)
-	team_members = TeamMember.objects.all()
+	team_members = TeamMember.objects.filter(show=True)
 
 	context = {
 		'services': services,

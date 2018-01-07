@@ -378,6 +378,34 @@ img {
    max-width:100%;
 }
 
+.job-preview-popup{
+	width: 60%;
+	padding: 1% 2%;
+	color: black;
+	position: fixed;
+	top: 30%;
+	left: 21%;
+	background-color: #FFF;
+	border:1px solid #dddddd;
+	box-shadow:0 4px 5px -3px #ececec;
+	display: none;
+}
+
+.close-job-preview-popup{
+	margin: 0 auto;
+	padding: 1%;
+	width: 10%;
+	color: #dddddd;
+	cursor: pointer;
+
+}
+
+.before-after-img{
+	padding: 5%;
+	width: 400px;
+	height: 300px;
+}
+
 /* no transition on .isotope container */
 
 .isotope .isotope-item {
